@@ -13,7 +13,7 @@ For each day of the trip, you can add a title, a description and an photo.
 
 TP de PCD sur l'implantation d'une application de carnet de voyage en JavaFX et FXML.
 
-[![Sujet du projet](https://img.shields.io/badge/Sujet%20du%20projet-red)](https://github.com/teanup/JavaFX-Travelogue/-/blob/master/Carnet_de_voyage_2023-2024.pdf)
+[![Sujet du projet](https://img.shields.io/badge/Sujet%20du%20projet-red)](https://github.com/teanup/JavaFX-Travelogue/blob/master/Carnet_de_voyage_2023-2024.pdf)
 
 ## Développement
 
