@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<VBox fx:controller="eu.telecomnancy.carnet.MainController" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <MenuBar>
+      <menus>
+        <Menu fx:id="carnetMenu" text="Carnet">
+          <items>
+            <MenuItem fx:id="nouveauMenuItem" text="Nouveau carnet" onAction="#onNouveau"
+              accelerator="Ctrl+N" />
+            <MenuItem fx:id="ouvrirMenuItem" text="Ouvrir..." onAction="#onOuvrir"
+              accelerator="Ctrl+O" />
+            <MenuItem fx:id="quitterMenuItem" text="Quitter" onAction="#onQuitter"
+              accelerator="Ctrl+Q" />
+          </items>
+        </Menu>
+        <Menu fx:id="nomCarnetMenu" text="Aucun carnet ouvert" disable="true">
+          <items>
+            <MenuItem fx:id="modifierMenuItem" text="Modifier infos" onAction="#onModifier"
+              accelerator="Ctrl+I" disable="true" />
+            <MenuItem fx:id="exporterMenuItem" text="Exporter sous..." onAction="#onExporter"
+              accelerator="Ctrl+E" disable="true" />
+          </items>
+        </Menu>
+        <Menu fx:id="vueMenu" text="Vue" disable="true">
+          <items>
+            <MenuItem fx:id="modeGlobalMenuItem" text="Globale" onAction="#onModeGlobal"
+              accelerator="Ctrl+G" disable="true" />
+            <MenuItem fx:id="modePageMenuItem" text="Page" onAction="#onModePage"
+              accelerator="Ctrl+P" disable="true" />
+          </items>
+        </Menu>
+        <Menu fx:id="pageMenu" text="Page" disable="true">
+          <items>
+            <MenuItem fx:id="precedentMenuItem" text="Précédent"
+              accelerator="Ctrl+Left" />
+            <MenuItem fx:id="suivantMenuItem" text="Suivant"
+              accelerator="Ctrl+Right" />
+            <MenuItem fx:id="modifierPageMenuItem" text="Modifier"
+              accelerator="Ctrl+M" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane fx:id="root" />
+  </children>
+</VBox>
