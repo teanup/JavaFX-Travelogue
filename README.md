@@ -62,3 +62,9 @@ java --module-path ${JAVAFX_HOME}/lib --add-modules=javafx.base,javafx.controls,
 * <kbd>Ctrl</kbd> + <kbd>←</kbd> : Page précédente
 * <kbd>Ctrl</kbd> + <kbd>→</kbd> : Page suivante
 * <kbd>Ctrl</kbd> + <kbd>M</kbd> : Modifier la page courante (titre, description, image)
+
+---
+
+## Diagramme de classes
+
+![Diagramme de classes](./Diagramme_classes.png)
